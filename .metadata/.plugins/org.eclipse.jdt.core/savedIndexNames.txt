@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+C:\Users\Romain\Documents\workspaces\FooBarQix\.metadata\.plugins\org.eclipse.jdt.core
+57676405.index
+4098744632.index
+2396008793.index
+4109026758.index
+454828760.index
+2893382097.index
+963906252.index
+2037931329.index
+3425965787.index
+3210655208.index
+1236319227.index
+3083148530.index
+2940635578.index
+1131111598.index
+1593247872.index
