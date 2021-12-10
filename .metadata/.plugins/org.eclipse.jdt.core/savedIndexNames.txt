@@ -5,7 +5,6 @@ INDEX VERSION 1.131+C:\Users\Romain\Documents\workspaces\FooBarQix\.metadata\.pl
 4109026758.index
 454828760.index
 2893382097.index
-963906252.index
 2037931329.index
 3425965787.index
 3210655208.index
