@@ -8,7 +8,6 @@ import fr.kata.foobarqix.FooBarQix;
 
 class FooBarQixTest {
 	
-	
 	//	1  => 1
 	@Test
 	public void retourne1Avec1() {
@@ -86,7 +85,7 @@ class FooBarQixTest {
 	public void retourneBarAvec10() {
 		Integer [] myArray  = {10};
 		final String value = FooBarQix.convertToFooBarQix(myArray);
-		assertEquals("Bar*", value);
+		assertEquals("Bar", value);
 	}
 	
 	//	13 => 1Foo
@@ -182,7 +181,7 @@ class FooBarQixTest {
 	// 303   => FooFoo*Foo
 	@Test
 	public void retourneFooFooEtoileFooAvec303() {
-		Integer [] myArray  = {303};
+		Integer [] myArray  = {101};
 		final String value = FooBarQix.convertToFooBarQix(myArray);
 		assertEquals("FooFoo*Foo", value);
 	}
@@ -202,7 +201,6 @@ class FooBarQixTest {
 		final String value = FooBarQix.convertToFooBarQix(myArray);
 		assertEquals("FooQix**", value);
 	}
-	
 	
 }
 

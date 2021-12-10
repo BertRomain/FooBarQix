@@ -1,5 +1,6 @@
 package fr.kata.tests;
 
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -9,6 +10,13 @@ import fr.kata.foobarqix.FooBarQix;
 class FooBarQixTest {
 	
 	
+	//test instanciation class 
+		@Test
+		public void instantiateFooBarQixClass() {
+			FooBarQix fooBarQix = new FooBarQix(); 
+			assertNotNull(fooBarQix);
+		}
+		
 	//	1  => 1
 	@Test
 	public void retourne1Avec1() {

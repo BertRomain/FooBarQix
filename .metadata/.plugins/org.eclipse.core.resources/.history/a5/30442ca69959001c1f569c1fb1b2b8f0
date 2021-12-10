@@ -64,7 +64,7 @@ public class FooBarQix {
 				
 				if (i == 0) {
 					sb.append('*');
-				} else if (i == 3) {
+				} else  (i == 3) {
 					sb.append("Foo");
 				} else if (i == 5) {
 					sb.append("Bar");

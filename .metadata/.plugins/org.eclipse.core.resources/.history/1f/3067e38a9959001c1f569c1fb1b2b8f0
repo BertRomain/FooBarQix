@@ -8,7 +8,6 @@ import fr.kata.foobarqix.FooBarQix;
 
 class FooBarQixTest {
 	
-	
 	//	1  => 1
 	@Test
 	public void retourne1Avec1() {
@@ -86,7 +85,7 @@ class FooBarQixTest {
 	public void retourneBarAvec10() {
 		Integer [] myArray  = {10};
 		final String value = FooBarQix.convertToFooBarQix(myArray);
-		assertEquals("Bar*", value);
+		assertEquals("Bar", value);
 	}
 	
 	//	13 => 1Foo
@@ -162,47 +161,11 @@ class FooBarQixTest {
 	}
 	
 	//test checkDigits()
-	@Test
-	public void retourneStringAvecChiffreVerifie() {
-		Integer [] myArray  = {53};
-		final String value = FooBarQix.checkDigits(myArray[0]);
-		assertEquals("BarFoo", value);
+		@Test
+		public void retourneStringAvecChiffreVerifie() {
+			Integer [] myArray  = {53};
+			final String value = FooBarQix.checkDigits(myArray[0]);
+			assertEquals("BarFoo", value);
 	}
 		
-		
-	// 101   => 1*1
-	@Test
-	public void retourne1Etoile1Avec101() {
-		Integer [] myArray  = {101};
-		final String value = FooBarQix.convertToFooBarQix(myArray);
-		assertEquals("1*1", value);
-	}
-		
-	
-	// 303   => FooFoo*Foo
-	@Test
-	public void retourneFooFooEtoileFooAvec303() {
-		Integer [] myArray  = {303};
-		final String value = FooBarQix.convertToFooBarQix(myArray);
-		assertEquals("FooFoo*Foo", value);
-	}
-		
-	// 105   => FooBarQix*Bar
-	@Test
-	public void retourneFooBarQixEtoileBarAvec105() {
-		Integer [] myArray  = {105};
-		final String value = FooBarQix.convertToFooBarQix(myArray);
-		assertEquals("FooBarQix*Bar", value);
-	}
-		
-	// 10101 => FooQix**
-	@Test
-	public void retourneFooQixEtoileEtoileAvec10101() {
-		Integer [] myArray  = {10101};
-		final String value = FooBarQix.convertToFooBarQix(myArray);
-		assertEquals("FooQix**", value);
-	}
-	
-	
 }
-

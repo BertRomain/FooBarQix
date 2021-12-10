@@ -62,9 +62,7 @@ public class FooBarQix {
 
 			for (int i : intTab) {
 				
-				if (i == 0) {
-					sb.append('*');
-				} else if (i == 3) {
+				if (i == 3) {
 					sb.append("Foo");
 				} else if (i == 5) {
 					sb.append("Bar");

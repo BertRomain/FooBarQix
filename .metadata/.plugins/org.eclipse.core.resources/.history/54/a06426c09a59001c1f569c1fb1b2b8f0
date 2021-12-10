@@ -1,5 +1,6 @@
 package fr.kata.tests;
 
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -7,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import fr.kata.foobarqix.FooBarQix;
 
 class FooBarQixTest {
-	
 	
 	//	1  => 1
 	@Test
@@ -203,6 +203,11 @@ class FooBarQixTest {
 		assertEquals("FooQix**", value);
 	}
 	
-	
+	//test instanciation class 
+	@Test
+	public void instantiateFooBarQixClass() {
+		FooBarQix fooBarQix = new FooBarQix(); 
+		assertNull(fooBarQix);
+	}
 }
 
