@@ -7,12 +7,6 @@ import org.junit.jupiter.api.Test;
 import fr.kata.foobarqix.FooBarQix;
 
 class FooBarQixTest {
-
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
-	
 	
 	//	1  => 1
 	@Test
@@ -33,7 +27,7 @@ class FooBarQixTest {
 	//	3  => FooFoo (divisible by 3, contains 3)
 	@Test
 	public void retourneFooFooAvec3() {
-		Integer [] myArray  = {1};
+		Integer [] myArray  = {3};
 		final String value = FooBarQix.convertToFooBarQix(myArray);
 		assertEquals("FooFoo", value);
 	}
@@ -94,12 +88,12 @@ class FooBarQixTest {
 		assertEquals("Bar", value);
 	}
 	
-	//	13 => Foo
+	//	13 => 1Foo
 	@Test
-	public void retourneFooAvec13() {
+	public void retourne1FooAvec13() {
 		Integer [] myArray  = {13};
 		final String value = FooBarQix.convertToFooBarQix(myArray);
-		assertEquals("Foo", value);
+		assertEquals("1Foo", value);
 	}
 	
 	//	15 => FooBarBar (divisible by 3, divisible by 5, contains 5)
@@ -141,4 +135,37 @@ class FooBarQixTest {
 		final String value = FooBarQix.convertToFooBarQix(myArray);
 		assertEquals("BarFoo", value);
 	}
+	
+	//test divisibilityStandard()
+	@Test
+	public void retourneStringAvecChiffreDivise() {
+		Integer [] myArray  = {53};
+		final String value = FooBarQix.divisibility(myArray[0]);
+		assertEquals("", value);
+	}
+	
+	//test divisibility357()
+	@Test
+	public void retourneStringAvecMultiple357() {
+		Integer [] myArray  = {105};
+		final String value = FooBarQix.divisibility(myArray[0]);
+		assertEquals("FooBarQix", value);
+	}
+	
+	//test divisibility()
+	@Test
+	public void retourneStringAvecMultiple35() {
+		Integer [] myArray  = {35};
+		final String value = FooBarQix.divisibility(myArray[0]);
+		assertEquals("BarQix", value);
+	}
+	
+	//test checkDigits()
+		@Test
+		public void retourneStringAvecChiffreVerifie() {
+			Integer [] myArray  = {53};
+			final String value = FooBarQix.checkDigits(myArray[0]);
+			assertEquals("BarFoo", value);
+	}
+		
 }

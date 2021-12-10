@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FooBarQixTest" project="FooBarQix" tests="16" started="16" failures="0" errors="0" ignored="0">
+  <testsuite name="fr.kata.tests.FooBarQixTest" time="0.086" displayname="FooBarQixTest" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]">
+    <testcase name="retourneFooFooAvec3" classname="fr.kata.tests.FooBarQixTest" time="0.046" displayname="retourneFooFooAvec3()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneFooFooAvec3()]"/>
+    <testcase name="retourne1FooAvec13" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourne1FooAvec13()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourne1FooAvec13()]"/>
+    <testcase name="retourneBarFooAvec53" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourneBarFooAvec53()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneBarFooAvec53()]"/>
+    <testcase name="retourneFooBarAvec51" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourneFooBarAvec51()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneFooBarAvec51()]"/>
+    <testcase name="retourneQixQixAvec7" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourneQixQixAvec7()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneQixQixAvec7()]"/>
+    <testcase name="retourneFooFooFooAvec33" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourneFooFooFooAvec33()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneFooFooFooAvec33()]"/>
+    <testcase name="retourneFooQixAvec21" classname="fr.kata.tests.FooBarQixTest" time="0.001" displayname="retourneFooQixAvec21()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneFooQixAvec21()]"/>
+    <testcase name="retourneBarAvec10" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourneBarAvec10()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneBarAvec10()]"/>
+    <testcase name="retourneFooAvec6" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourneFooAvec6()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneFooAvec6()]"/>
+    <testcase name="retourneFooAvec9" classname="fr.kata.tests.FooBarQixTest" time="0.001" displayname="retourneFooAvec9()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneFooAvec9()]"/>
+    <testcase name="retourneFooBarBarAvec15" classname="fr.kata.tests.FooBarQixTest" time="0.001" displayname="retourneFooBarBarAvec15()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneFooBarBarAvec15()]"/>
+    <testcase name="retourneBarBarAvec5" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourneBarBarAvec5()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourneBarBarAvec5()]"/>
+    <testcase name="retourne1Avec1" classname="fr.kata.tests.FooBarQixTest" time="0.001" displayname="retourne1Avec1()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourne1Avec1()]"/>
+    <testcase name="retourne2Avec2" classname="fr.kata.tests.FooBarQixTest" time="0.001" displayname="retourne2Avec2()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourne2Avec2()]"/>
+    <testcase name="retourne4Avec4" classname="fr.kata.tests.FooBarQixTest" time="0.001" displayname="retourne4Avec4()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourne4Avec4()]"/>
+    <testcase name="retourne8Avec8" classname="fr.kata.tests.FooBarQixTest" time="0.002" displayname="retourne8Avec8()" uniqueid="[engine:junit-jupiter]/[class:fr.kata.tests.FooBarQixTest]/[method:retourne8Avec8()]"/>
+  </testsuite>
+</testrun>

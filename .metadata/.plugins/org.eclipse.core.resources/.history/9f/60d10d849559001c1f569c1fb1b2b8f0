@@ -1,0 +1,37 @@
+package fr.kata.foobarqix;
+
+public class FooBarQix {
+	
+	static String result = "";
+	
+	
+	//méthode principale
+	public static String convertToFooBarQix(Integer[] myArray) {
+		
+		for (Integer number : myArray) {	
+			
+			result = "";
+			
+			result = divisibility(number); 
+			result += checkDigits(number); 
+			
+			System.out.println("résultat pour " + number + " : " + result);
+		}
+	return result; 
+	}
+	
+	
+	//méthode pour vérifier la divisibilité
+	private static String divisibility(Integer number) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+	//méthode pour vérifier la présence de chacun des chiffres
+		private static String checkDigits(Integer number) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+}
